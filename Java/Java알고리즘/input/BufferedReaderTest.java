@@ -167,7 +167,7 @@ public class BufferedReaderTest {
         {
             // 1. 디버거를 적극적으로 활용하자. 
             // 2. 파일 입력을 적극적으로 활용하자.
-            System.setIn(new FileInputStream("Algorithm/input.txt")); // 입력 파일 생성 
+            System.setIn(new FileInputStream("Java알고리즘/input.txt")); // 입력 파일 생성 
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             int T = Integer.parseInt(br.readLine());
 
