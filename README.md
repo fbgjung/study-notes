@@ -1,4 +1,5 @@
-# Java, CS, Algorithm, Springboot, Docker
+# study-notes
+Java, CS, Algorithm, Springboot, Docker
 
 ## 1. Java
 - [Java SE](https://github.com/fbgjung/study-notes/tree/main/Java/Java%20SE)
