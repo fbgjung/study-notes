@@ -15,8 +15,10 @@ public class JpaMain {
 
         try {
 
-            Member findMember = em.find(Member.class, 2L);
-            findMember.setName("Hello수정");
+//            Member member = new Member(300L, "member300");
+//            em.persist(member);
+//
+//            System.out.println("===================");
 
             tx.commit(); // 정상이면 commit
         } catch (Exception e) {
